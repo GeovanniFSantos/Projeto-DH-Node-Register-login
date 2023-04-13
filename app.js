@@ -11,6 +11,9 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 // Rota Routes
+const logMiddleware = require('./middlewares/logMiddleware');
+app.use(logMiddleware.toConsole);
+
 const userRoutes = require('./routes/userRoutes'); // Required do method userRouter (Router)
 app.use('/users', userRoutes); // Quando usuario digitar na rota /users
 
