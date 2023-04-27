@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "name": "Renato Natto",
+    "email": "renatonato@gmail.com",
+    "email-repeat": "renatonato@gmail.com",
+    "psw": "0123456789",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 2,
+    "name": "Carlos Andrade",
+    "email": "carlos@gmail.com",
+    "email-repeat": "carlos@gmail.com",
+    "psw": "0123456789",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 3,
+    "name": "Juarez bigu",
+    "email": "juarez@gmail.com",
+    "email-repeat": "juarez@gmail.com",
+    "psw": "0123456789",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 4,
+    "name": "João Pedro",
+    "email": "joaopedro@gmail.com",
+    "email-repeat": "joaopedro@gmail.com",
+    "psw": "0123456789",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 5,
+    "name": "Geovanni Ferreira Dos Santos",
+    "email": "geovannydyno@gmail.com",
+    "email-repeat": "geovannydyno@gmail.com",
+    "psw": "123456789",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 6,
+    "name": "Maria Pitanga",
+    "email": "mariapitanga@gmail.com",
+    "email-repeat": "mariapitanga@gmail.com",
+    "psw": "$2b$10$DJfumrfYyt9.WHr.PQ8Ime0xXqAEdsTyQc9lgoZgm.I54cNOiwc4G",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}, {
+    "id": 7,
+    "name": "anthony.caschetta.37",
+    "email": "anthony@gmail.com",
+    "email-repeat": "anthony@gmail.com",
+    "psw": "$2b$10$DadD/ZVgK2aER3cbSJjYXu.b0y3fSgoCa0LMFkfImHYU466cwnPXW",
+    "psw-repeat": "123456789",
+    "agreement": "on"
+}]
