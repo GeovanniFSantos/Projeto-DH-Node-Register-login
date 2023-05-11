@@ -18,7 +18,7 @@ const upload = multer({
     storage: multerDiskerStorage
 })
 
-router.get('/admin', auth, adminController.admin);
+router.get('/criar', auth, adminController.admin);
 router.post('/criar', upload.single('imgProduto'), adminController.criarProduto)
 
 
