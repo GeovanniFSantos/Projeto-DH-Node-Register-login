@@ -34,6 +34,9 @@ app.use('/login', loginRoutes);
 const adminRoutes = require('./routes/adminRoutes')
 app.use('/admin', adminRoutes);
 
+const produto = require('./routes/produtoRoutes');
+app.use('/produto', produto);
+
 app.listen(3000, () => {
     console.log('Servidor Rodando na porta 3000')
 });

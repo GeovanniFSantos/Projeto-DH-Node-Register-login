@@ -8,12 +8,14 @@
     border: none;
 }
 
-input, label {
+input,
+label {
     display: block;
     width: 100%;
 }
 
-input, label:focus {
+input,
+label:focus {
     outline: none;
 }
 
@@ -22,15 +24,16 @@ a {
 }
 
 body {
-    padding-top: 5vh;  /* view height -> 5% da tela */
+    padding-top: 5vh;
+    /* view height -> 5% da tela */
     background-image: url('/image/img-fundo.jpg');
     background-size: cover;
     background-position: -150px;
 }
 
 /* Forms */
-.main-containerForm{
-    width: 500px;
+.main-containerForm {
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -38,24 +41,25 @@ body {
     padding: 30px;
 }
 
-.main-containerForm h2{
+.main-containerForm h2 {
     text-align: center;
     margin-bottom: 25px;
-    font-size: 1.6rem; /* adptada ao elemento root */
+    font-size: 1.6rem;
+    /* adptada ao elemento root */
 }
 
-form{
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.full-box{
+.full-box {
     flex: 1 1 100%;
     position: relative;
 }
 
-.half-box{
+.half-box {
     flex: 1 1 45%;
     position: relative;
 }
@@ -89,7 +93,8 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-#agreement, #agreement-lebel {
+#agreement,
+#agreement-lebel {
     display: inline-block;
     width: auto;
 }
@@ -106,5 +111,3 @@ input[type="submit"] {
 .template {
     display: none;
 }
-
-
