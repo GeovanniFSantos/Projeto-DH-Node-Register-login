@@ -33,20 +33,21 @@
         </div>
 
         <main class="main">
+
             <div class="update visivel">
                 <h2>Atualizar</h2>
-                <form action="/admin/atualizar" method="POST">
-                    <input type="text" name="nomeProduto" placeholder="Nome do Produto...">
+                <form action="/admin/editar?_method=PUT" method="POST" enctype="multipart/form-data">
+                    <input type="text" name="nomeProduto" value="<%= produto.nome %>">
                     <input type="text" name="descricaoProduto" placeholder="Descrição do Produto...">
                     <input type="file" name="imgProduto" placeholder="Imagem do Produto...">
-                    <input type="number" name="precoProduto" placeholder="Preco do Produto...">
+                    <input type="number" name="precoProduto" value="<%= produto.preco %>">
                     <button type="submit">Enviar</button>
                 </form>
             </div>
 
             <div class="create">
                 <h2>Criar</h2>
-                <form action="/admin/criar" method="POST">
+                <form action="/admin/criar" method="POST" enctype="multipart/form-data">
                     <input type="text" name="nomeProduto" placeholder="Nome do Novo Produto...">
                     <input type="text" name="descricaoProduto" placeholder="Descrição do Novo Produto...">
                     <input type="file" name="imgProduto" placeholder="Imagem do Novo Produto...">
@@ -57,7 +58,7 @@
 
             <div class="delet">
                 <h2>Deletar</h2>
-                <form action="/admin/deletar" method="POST">
+                <form action="/admin/deletar" method="POST" enctype="multipart/form-data">
                     <input type="text" name="nomeProduto" placeholder="...">
                     <input type="text" name="descricaoProduto" placeholder="...">
                     <input type="file" name="imgProduto" placeholder="...">
@@ -65,6 +66,7 @@
                     <button type="submit">Enviar</button>
                 </form>
             </div>
+
         </main>
     </div>
 </body>

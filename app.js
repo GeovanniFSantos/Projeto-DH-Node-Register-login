@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require('path');
 const session = require('express-session');
+const methodOverride = require('method-override');
 
 app.use(session({
     secret: "projetoExpress",
@@ -13,7 +14,7 @@ app.use(express.static('./public'));
 app.use(express.urlencoded({
     extended: false
 }));
-
+app.use(methodOverride('_method'))
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
